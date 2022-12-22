@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<meta http-equiv="x-ua-compatible" content="IE=edge"/>
+<title>Test results - CRUDProjectTest</title>
+<link href="../css/base-style.css" rel="stylesheet" type="text/css"/>
+<link href="../css/style.css" rel="stylesheet" type="text/css"/>
+<script src="../js/report.js" type="text/javascript"></script>
+</head>
+<body>
+<div id="content">
+<h1>CRUDProjectTest</h1>
+<div class="breadcrumbs">
+<a href="../index.html">all</a> &gt; 
+<a href="../packages/basicRestAssured.html">basicRestAssured</a> &gt; CRUDProjectTest</div>
+<div id="summary">
+<table>
+<tr>
+<td>
+<div class="summaryGroup">
+<table>
+<tr>
+<td>
+<div class="infoBox" id="tests">
+<div class="counter">1</div>
+<p>tests</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="failures">
+<div class="counter">0</div>
+<p>failures</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="ignored">
+<div class="counter">0</div>
+<p>ignored</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="duration">
+<div class="counter">22.552s</div>
+<p>duration</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+</td>
+<td>
+<div class="infoBox success" id="successRate">
+<div class="percent">100%</div>
+<p>successful</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+<div id="tabs">
+<ul class="tabLinks">
+<li>
+<a href="#tab0">Tests</a>
+</li>
+<li>
+<a href="#tab1">Standard output</a>
+</li>
+</ul>
+<div id="tab0" class="tab">
+<h2>Tests</h2>
+<table>
+<thead>
+<tr>
+<th>Test</th>
+<th>Duration</th>
+<th>Result</th>
+</tr>
+</thead>
+<tr>
+<td class="success">verifyCRUDProject()</td>
+<td class="success">22.552s</td>
+<td class="success">passed</td>
+</tr>
+</table>
+</div>
+<div id="tab1" class="tab">
+<h2>Standard output</h2>
+<span class="code">
+<pre>Request method:	POST
+Request URI:	https://todo.ly/api/items.json
+Proxy:			&lt;none&gt;
+Request params:	&lt;none&gt;
+Query params:	&lt;none&gt;
+Form params:	&lt;none&gt;
+Path params:	&lt;none&gt;
+Headers:		Token=398cb7d4c7374d0cbf5d7f44966278ef
+				Accept=*/*
+				Content-Type=text/plain; charset=ISO-8859-1
+Cookies:		&lt;none&gt;
+Multiparts:		&lt;none&gt;
+Body:
+{&quot;Content&quot;:&quot;BootcampTest&quot;}
+HTTP/1.1 200 OK
+Cache-Control: no-cache, no-store, must-revalidate
+Pragma: no-cache
+Content-Type: application/json; charset=utf-8
+Expires: -1
+Server: Microsoft-IIS/8.0
+Set-Cookie: ASP.NET_SessionId=udwqh4eacdl2i013x2os00lm; path=/; HttpOnly; SameSite=Lax
+X-AspNetMvc-Version: 2.0
+X-AspNet-Version: 4.0.30319
+X-Powered-By: ASP.NET
+Date: Thu, 22 Dec 2022 18:56:51 GMT
+Content-Length: 533
+
+{
+    &quot;Id&quot;: 11094650,
+    &quot;Content&quot;: &quot;BootcampTest&quot;,
+    &quot;ItemType&quot;: 1,
+    &quot;Checked&quot;: false,
+    &quot;ProjectId&quot;: null,
+    &quot;ParentId&quot;: null,
+    &quot;Path&quot;: &quot;&quot;,
+    &quot;Collapsed&quot;: false,
+    &quot;DateString&quot;: null,
+    &quot;DateStringPriority&quot;: 0,
+    &quot;DueDate&quot;: &quot;&quot;,
+    &quot;Recurrence&quot;: null,
+    &quot;ItemOrder&quot;: null,
+    &quot;Priority&quot;: 4,
+    &quot;LastSyncedDateTime&quot;: &quot;/Date(1671735411030)/&quot;,
+    &quot;Children&quot;: [
+        
+    ],
+    &quot;DueDateTime&quot;: null,
+    &quot;CreatedDate&quot;: &quot;/Date(1671735411000)/&quot;,
+    &quot;LastCheckedDate&quot;: null,
+    &quot;LastUpdatedDate&quot;: &quot;/Date(1671735411000)/&quot;,
+    &quot;Deleted&quot;: false,
+    &quot;Notes&quot;: &quot;&quot;,
+    &quot;InHistory&quot;: false,
+    &quot;SyncClientCreationId&quot;: null,
+    &quot;DueTimeSpecified&quot;: true,
+    &quot;OwnerId&quot;: 706825
+}
+Request method:	PUT
+Request URI:	https://todo.ly/api/items/11094650.json
+Proxy:			&lt;none&gt;
+Request params:	&lt;none&gt;
+Query params:	&lt;none&gt;
+Form params:	&lt;none&gt;
+Path params:	&lt;none&gt;
+Headers:		Token=398cb7d4c7374d0cbf5d7f44966278ef
+				Accept=*/*
+				Content-Type=text/plain; charset=ISO-8859-1
+Cookies:		&lt;none&gt;
+Multiparts:		&lt;none&gt;
+Body:
+{&quot;Content&quot;:&quot;BootcampTestUpdate&quot;}
+HTTP/1.1 200 OK
+Cache-Control: no-cache, no-store, must-revalidate
+Pragma: no-cache
+Content-Type: application/json; charset=utf-8
+Expires: -1
+Server: Microsoft-IIS/8.0
+Set-Cookie: ASP.NET_SessionId=yqszkk50h1ks5x4ot0sxx42k; path=/; HttpOnly; SameSite=Lax
+X-AspNetMvc-Version: 2.0
+X-AspNet-Version: 4.0.30319
+X-Powered-By: ASP.NET
+Date: Thu, 22 Dec 2022 18:56:55 GMT
+Content-Length: 539
+
+{
+    &quot;Id&quot;: 11094650,
+    &quot;Content&quot;: &quot;BootcampTestUpdate&quot;,
+    &quot;ItemType&quot;: 1,
+    &quot;Checked&quot;: false,
+    &quot;ProjectId&quot;: null,
+    &quot;ParentId&quot;: null,
+    &quot;Path&quot;: &quot;&quot;,
+    &quot;Collapsed&quot;: false,
+    &quot;DateString&quot;: null,
+    &quot;DateStringPriority&quot;: 0,
+    &quot;DueDate&quot;: &quot;&quot;,
+    &quot;Recurrence&quot;: null,
+    &quot;ItemOrder&quot;: null,
+    &quot;Priority&quot;: 4,
+    &quot;LastSyncedDateTime&quot;: &quot;/Date(1671735416396)/&quot;,
+    &quot;Children&quot;: [
+        
+    ],
+    &quot;DueDateTime&quot;: null,
+    &quot;CreatedDate&quot;: &quot;/Date(1671735411000)/&quot;,
+    &quot;LastCheckedDate&quot;: null,
+    &quot;LastUpdatedDate&quot;: &quot;/Date(1671735416380)/&quot;,
+    &quot;Deleted&quot;: false,
+    &quot;Notes&quot;: &quot;&quot;,
+    &quot;InHistory&quot;: false,
+    &quot;SyncClientCreationId&quot;: null,
+    &quot;DueTimeSpecified&quot;: true,
+    &quot;OwnerId&quot;: 706825
+}
+Request method:	DELETE
+Request URI:	https://todo.ly/api/items/11094650.json
+Proxy:			&lt;none&gt;
+Request params:	&lt;none&gt;
+Query params:	&lt;none&gt;
+Form params:	&lt;none&gt;
+Path params:	&lt;none&gt;
+Headers:		Token=398cb7d4c7374d0cbf5d7f44966278ef
+				Accept=*/*
+				Content-Type=text/plain; charset=ISO-8859-1
+Cookies:		&lt;none&gt;
+Multiparts:		&lt;none&gt;
+Body:
+{&quot;Content&quot;:&quot;BootcampTestUpdate&quot;}
+HTTP/1.1 200 OK
+Cache-Control: no-cache, no-store, must-revalidate
+Pragma: no-cache
+Content-Type: application/json; charset=utf-8
+Expires: -1
+Server: Microsoft-IIS/8.0
+Set-Cookie: ASP.NET_SessionId=i0eb5wpry0t333c5qgha2lwa; path=/; HttpOnly; SameSite=Lax
+X-AspNetMvc-Version: 2.0
+X-AspNet-Version: 4.0.30319
+X-Powered-By: ASP.NET
+Date: Thu, 22 Dec 2022 18:56:57 GMT
+Content-Length: 538
+
+{
+    &quot;Id&quot;: 11094650,
+    &quot;Content&quot;: &quot;BootcampTestUpdate&quot;,
+    &quot;ItemType&quot;: 1,
+    &quot;Checked&quot;: false,
+    &quot;ProjectId&quot;: null,
+    &quot;ParentId&quot;: null,
+    &quot;Path&quot;: &quot;&quot;,
+    &quot;Collapsed&quot;: false,
+    &quot;DateString&quot;: null,
+    &quot;DateStringPriority&quot;: 0,
+    &quot;DueDate&quot;: &quot;&quot;,
+    &quot;Recurrence&quot;: null,
+    &quot;ItemOrder&quot;: null,
+    &quot;Priority&quot;: 4,
+    &quot;LastSyncedDateTime&quot;: &quot;/Date(1671735417940)/&quot;,
+    &quot;Children&quot;: [
+        
+    ],
+    &quot;DueDateTime&quot;: null,
+    &quot;CreatedDate&quot;: &quot;/Date(1671735411000)/&quot;,
+    &quot;LastCheckedDate&quot;: null,
+    &quot;LastUpdatedDate&quot;: &quot;/Date(1671735417893)/&quot;,
+    &quot;Deleted&quot;: true,
+    &quot;Notes&quot;: &quot;&quot;,
+    &quot;InHistory&quot;: false,
+    &quot;SyncClientCreationId&quot;: null,
+    &quot;DueTimeSpecified&quot;: true,
+    &quot;OwnerId&quot;: 706825
+}
+</pre>
+</span>
+</div>
+</div>
+<div id="footer">
+<p>
+<div>
+<label class="hidden" id="label-for-line-wrapping-toggle" for="line-wrapping-toggle">Wrap lines
+<input id="line-wrapping-toggle" type="checkbox" autocomplete="off"/>
+</label>
+</div>Generated by 
+<a href="http://www.gradle.org">Gradle 7.4</a> at Dec 22, 2022, 2:57:01 PM</p>
+</div>
+</div>
+</body>
+</html>
